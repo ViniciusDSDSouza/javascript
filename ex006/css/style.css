@@ -1,0 +1,13 @@
+div#area {
+    display: inline-block;
+    font: bold 20pt arial;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    background-color: darkslategrey;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 15px;
+}
