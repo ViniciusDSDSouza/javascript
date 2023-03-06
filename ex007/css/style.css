@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    font: normal 10pt Arial;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+input#txtn1, input#txtn2 {
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    display: block;
+    text-align: center;
+}
+
+p#mais {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: normal 18pt Arial;
+}
+
+input#Somar {
+    background-color: blue;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 9px 35px;
+    font-weight: bold;
+}
+
+div#res {
+    padding: 8px 2px;
+    font-size: 18pt;
+}
