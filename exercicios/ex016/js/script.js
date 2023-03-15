@@ -14,7 +14,12 @@ while (whilE <=5) {
     console.log(`Contador: ${whilE}`)
     whilE++
 }
+console.log('')
 
+// While compactado
+for (foR = 1; foR <= 5; foR++){
+    console.log(`Contador: ${foR}`)
+}
 console.log('')
 
 // Executa, depois Testa
