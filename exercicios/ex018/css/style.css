@@ -20,13 +20,8 @@ section {
     text-align: center;
 }
 
-section a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+div#tabuada p {
+    font-size: 10pt;
 }
 
 footer {
@@ -35,11 +30,29 @@ footer {
     font-style: italic;
 }
 
-footer a {
+a {
     color: white; 
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+input#nmr {
+    width: 65px;
+}
+
+button#gerar {
+    background-color: darkblue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+button#gerar:hover {
+    cursor: pointer;
+    background-color: rgb(5, 5, 172);
 }
