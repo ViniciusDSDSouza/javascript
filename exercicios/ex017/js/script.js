@@ -20,7 +20,7 @@ function clicar() {
         }
     } else if (inicio > fim) {
         while (inicio >= fim) {
-            res.innerText += ` ${inicio}, `
+            res.innerText += ` ${inicio} ➡️ `
             inicio -= passo
         }
     } else if (inicio == fim) {

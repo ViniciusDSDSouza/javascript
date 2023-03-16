@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
@@ -7,16 +12,46 @@ body {
 header {
     color: white;
     text-align: center;
+    text-shadow: 2px 3px black;
+    margin: 8px 0px;
 }
 
 section {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 580px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.365);
     text-align: center;
+}
+
+div#informacoes {
+    text-align: left;
+    font-weight: bold;
+}
+
+div#informacoes input {
+    margin: 0px 0px 20px 0px;
+    font-size: 12pt;
+}
+
+div#informacoes label {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+div#msg p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input#ano {
+    width: 50px;
 }
 
 input#verificar {
@@ -25,6 +60,7 @@ input#verificar {
     width: 150px;
     height: 40px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 input#verificar:hover {
@@ -36,6 +72,12 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin: 8px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
 }
 
 a {
