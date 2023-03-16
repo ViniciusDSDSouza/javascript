@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somando Números</title>
     <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora</title>
 </head>
 <body>
-    <h1>Somando Valores</h1>
-    <input type="number" name="txtn1" id="txtn1">
-    <p id="mais">+</p>
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Resultado" id="Somar">
-    <div id="res"></div>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section id="calculadora">
+        <div id="tela">
+            <p id="telaP"></p>
+        </div>
+        <table>
+            <tr>
+                <td><button id="c">c</button></td>
+                <td><button id="divi">/</button></td>
+                <td><button id="multi">*</button></td>
+                <td><button id="seta">&leftarrow;</button><td>
+            </tr>
+            <tr>
+                <td><button id="n7">7</button></td>
+                <td><button id="n8">8</button></td>
+                <td><button id="n9">9</button></td>
+                <td><button id="sub">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="n4">4</button></td>
+                <td><button id="n5">5</button></td>
+                <td><button id="n6">6</button></td>
+                <td><button id="soma">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="n1">1</button></td>
+                <td><button id="n2">2</button></td>
+                <td><button id="n3">3</button></td>
+                <td rowspan="2"><button id="igual">=</button></td>
+            </tr>
+            <td colspan="2"><button id="zero">0</button></td>
+            <td><button id="ponto">.</button></td>
+        </table>
+    </section>
+    <footer>
+        <p>Copyright - <a href="https://github.com/ViniciusDSDSouza" target="_blank">VinciusDSDSouza</a> &copy; 2023</p>
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
-<script src="../js/script.js"></script>
 </html>

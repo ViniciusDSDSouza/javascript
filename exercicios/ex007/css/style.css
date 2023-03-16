@@ -1,38 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: lightblue;
-    font: normal 10pt Arial;
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
     text-align: center;
 }
 
 h1 {
+    color: white;
+    text-shadow: 2px 3px 0px black;
+    margin: 18px;
+}
+
+section {
+    background-color: white;
+}
+
+section#calculadora {
+    margin: auto;
+    background-color: rgb(70, 69, 69);
+    width: 200px;
+    height: 270px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+div#tela {
+    background-color: white;
+    margin: 0px 16px 10px 16px;
+    text-align: end;
+    border-radius:  5px;
+    padding:3px 0px;
+    font-size: 20px;
+    height: 22px;
+}
+
+div#tela p {
+    margin-right: 3px;
+}
+
+table {
+    margin: auto;
+    border: none;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(224, 220, 220);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.733);
+}
+
+button#igual {
+    height: 82px;
+    background-color: rgb(190, 124, 0);
+}
+
+button#igual:hover {
+    background-color: orange;
+}
+
+button#seta {
+    background-color: rgba(243, 71, 71, 0.678);
+}
+
+button#seta:hover {
+    background-color: rgb(243, 51, 51);
+}
+
+button#zero {
+    width: 82px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-input#txtn1, input#txtn2 {
-    padding: 8px;
-    margin: auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    display: block;
-    text-align: center;
-}
-
-p#mais {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font: normal 18pt Arial;
-}
-
-input#Somar {
-    background-color: blue;
+footer {
+    margin: 18px;
+    font-style: italic;
     color: white;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 9px 35px;
-    font-weight: bold;
-}
-
-div#res {
-    padding: 8px 2px;
-    font-size: 18pt;
 }
