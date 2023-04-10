@@ -1,6 +1,5 @@
 // Obtendo a hora atual
 var hora = new Date().getHours();
-
 // Forçando uma hora 
 // var hora = 16
 
