@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="script.js" method="post" autocomplete="off">
+        <p>Nome: <input type="text" name="nome" size="15" maxlength="30"></p>
+        <p>Senha: <input type="password" name="senha" size="10"></p>
+        <p>Sexo: 
+            <input type="radio" name="sexo" value="M" checked="checked">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+        </p>
+        <p>
+            Por onde você está cadastrando?
+            <select name="dispositivos">
+                <option value="computador">Computador</option>
+                <option value="smartphone">Smartphone</option>
+                <option value="tablet">Tablet</option>
+            </select>
+        </p>
+        <p>
+            Você concorda com nossa Política de Privacidade? <input type="checkbox" name="privacidade" value="privacidade">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
